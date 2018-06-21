@@ -1,7 +1,9 @@
 def get_first_name_of_season_winner(data, season)
   season_arr = data[season]
   season_arr.each { |contestant|
-    if contestant[:status] == ""
+    if contestant[:status] == "Winner"
+      
+    end
   }
 end
 
