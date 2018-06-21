@@ -43,7 +43,7 @@ def get_average_age_for_season(data, season)
   season_arr = data[season]
   age_sum = 0
   season_arr.each { |contestant|
-    age_sum += contestant["age"].to_i
+    age_sum += contestant["age"].to_f
   }
   (age_sum / season_arr.length).round
 end
